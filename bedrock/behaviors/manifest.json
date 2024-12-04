@@ -3,9 +3,9 @@
   "header": {
     "description": "pack.description",
     "name": "pack.name",
-    "uuid": "UUID3",
+    "uuid": "b7cd38e3-e283-4cfb-8db3-f7efe08e4433",
     "version": [1, 0, 0],
-    "min_engine_version": [1, 21, 30]
+    "min_engine_version": [1, 21, 50]
   },
   "metadata": {
     "authors": ["legopitstop"],
@@ -16,19 +16,19 @@
     {
       "description": "pack.description",
       "type": "data",
-      "uuid": "UUID4",
+      "uuid": "26b0ab4a-adac-4693-b127-fabccc689030",
       "version": [1, 0, 0]
     },
     {
       "type": "script",
-      "uuid": "UUID5",
+      "uuid": "59ce3347-8088-4362-914a-0d5d20a5ec3f",
       "version": [1, 0, 0],
       "language": "javascript",
       "entry": "scripts/main.js"
     }
   ],
   "dependencies": [
-    { "uuid": "UUID1", "version": [1, 0, 0] },
-    { "module_name": "@minecraft/server", "version": "1.9.0" }
+    { "uuid": "af518e4b-e4bf-4e72-9a41-6dc509289949", "version": [1, 0, 0] },
+    { "module_name": "@minecraft/server", "version": "1.16.0" }
   ]
 }

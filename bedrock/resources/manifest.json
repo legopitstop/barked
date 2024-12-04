@@ -3,9 +3,9 @@
   "header": {
     "description": "pack.description",
     "name": "pack.name",
-    "uuid": "UUID1",
+    "uuid": "af518e4b-e4bf-4e72-9a41-6dc509289949",
     "version": [1, 0, 0],
-    "min_engine_version": [1, 21, 30]
+    "min_engine_version": [1, 21, 50]
   },
   "metadata": {
     "authors": ["legopitstop"],
@@ -16,7 +16,7 @@
     {
       "description": "pack.description",
       "type": "resources",
-      "uuid": "UUID2",
+      "uuid": "b6f0ec2f-30dc-495a-b441-3ad5a16c2c08",
       "version": [1, 0, 0]
     }
   ]
