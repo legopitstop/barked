@@ -18,7 +18,8 @@
           "function": "minecraft:set_components",
           "components": {
             "item_name": "{\"translate\": \"item.barked.jungle_bark\"}",
-            "custom_model_data": 440054
+            "item_model": "barked:jungle_bark",
+            "lore": ["{\"translate\":\"item.barked\",\"color\":\"blue\"}"]
           }
         }
       ]

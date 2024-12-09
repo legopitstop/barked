@@ -18,7 +18,8 @@
           "function": "minecraft:set_components",
           "components": {
             "item_name": "{\"translate\": \"item.barked.dark_oak_bark\"}",
-            "custom_model_data": 440055
+            "item_model": "barked:dark_oak_bark",
+            "lore": ["{\"translate\":\"item.barked\",\"color\":\"blue\"}"]
           }
         }
       ]

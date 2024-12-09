@@ -5,7 +5,7 @@
     "icon": {
       "id": "minecraft:stick",
       "components": {
-        "custom_model_data": 440061
+        "item_model": "barked:pale_oak_bark"
       }
     },
     "announce_to_chat": false,

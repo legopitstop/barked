@@ -6,7 +6,7 @@
         "player": {
           "equipment": {
             "mainhand": {
-              "tag": "minecraft:axe"
+              "items": "#minecraft:axes"
             }
           }
         },
@@ -15,7 +15,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "tag": "barked:strippable"
+                "blocks": "#barked:strippable"
               }
             }
           }

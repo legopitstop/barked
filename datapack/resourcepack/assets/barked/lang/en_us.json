@@ -1,4 +1,5 @@
 {
+    "item.barked": "Barked",
     "item.barked.oak_bark": "Oak Bark",
     "item.barked.spruce_bark": "Spruce Bark",
     "item.barked.birch_bark": "Birch Bark",
@@ -10,5 +11,6 @@
     "item.barked.mangrove_bark": "Mangrove Bark",
     "item.barked.cherry_bark": "Cherry Bark",
     "item.barked.bamboo_sheath": "Bamboo Sheath",
+    "item.barked.pale_oak_bark": "Pale Oak Bark",
     "subtitles.item.axe.unstrip": "Axe unstrips"
 }

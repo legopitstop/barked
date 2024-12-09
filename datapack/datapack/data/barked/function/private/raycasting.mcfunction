@@ -26,6 +26,8 @@ execute if block ~ ~ ~ minecraft:mangrove_wood run scoreboard players set @s bar
 execute if block ~ ~ ~ minecraft:cherry_log run scoreboard players set @s barked.looking_at 19
 execute if block ~ ~ ~ minecraft:cherry_wood run scoreboard players set @s barked.looking_at 20
 execute if block ~ ~ ~ minecraft:bamboo_block run scoreboard players set @s barked.looking_at 21
+execute if block ~ ~ ~ minecraft:pale_oak_log run scoreboard players set @s barked.looking_at 22
+execute if block ~ ~ ~ minecraft:pale_oak_wood run scoreboard players set @s barked.looking_at 23
 
 # remove one from range
 scoreboard players remove @s barked.RaycastRange 1

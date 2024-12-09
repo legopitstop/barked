@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to[Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [datapack-1.6.0] - 12/9/2024
+
+### General
+
+- Updated for 1.21.4
+- Added Pale Oak Bark
+- Items now use the updated item model system.
+- Added "Barked" lore to all items added by this datapack.
+
 ## [bedrock-1.0.0] - 12/4/2024
 
 ### General

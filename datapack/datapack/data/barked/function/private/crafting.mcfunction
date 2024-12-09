@@ -48,6 +48,10 @@ execute at @s[type=item,nbt={Item:{count:4,components:{"minecraft:custom_data":{
 execute at @s[type=item,nbt={Item:{count:4,components:{"minecraft:custom_data":{id:"barked:bamboo_sheath"}}}}] if block ~ ~-0.1 ~ stripped_bamboo_block[axis=x] run setblock ~ ~-1 ~ bamboo_block[axis=x]
 execute at @s[type=item,nbt={Item:{count:4,components:{"minecraft:custom_data":{id:"barked:bamboo_sheath"}}}}] if block ~ ~-0.1 ~ stripped_bamboo_block[axis=y] run setblock ~ ~-1 ~ bamboo_block[axis=y]
 execute at @s[type=item,nbt={Item:{count:4,components:{"minecraft:custom_data":{id:"barked:bamboo_sheath"}}}}] if block ~ ~-0.1 ~ stripped_bamboo_block[axis=z] run setblock ~ ~-1 ~ bamboo_block[axis=z]
+execute at @s[type=item,nbt={Item:{count:4,components:{"minecraft:custom_data":{id:"barked:pale_oak_bark"}}}}] if block ~ ~-0.1 ~ stripped_pale_oak_log run tag @s add BarkedCrafted
+execute at @s[type=item,nbt={Item:{count:4,components:{"minecraft:custom_data":{id:"barked:pale_oak_bark"}}}}] if block ~ ~-0.1 ~ stripped_pale_oak_log[axis=x] run setblock ~ ~-1 ~ pale_oak_log[axis=x]
+execute at @s[type=item,nbt={Item:{count:4,components:{"minecraft:custom_data":{id:"barked:pale_oak_bark"}}}}] if block ~ ~-0.1 ~ stripped_pale_oak_log[axis=y] run setblock ~ ~-1 ~ pale_oak_log[axis=y]
+execute at @s[type=item,nbt={Item:{count:4,components:{"minecraft:custom_data":{id:"barked:pale_oak_bark"}}}}] if block ~ ~-0.1 ~ stripped_pale_oak_log[axis=z] run setblock ~ ~-1 ~ pale_oak_log[axis=z]
 # woods
 execute at @s[type=item,nbt={Item:{count:6,components:{"minecraft:custom_data":{id:"barked:oak_bark"}}}}] if block ~ ~-0.1 ~ stripped_oak_wood run tag @s add BarkedCrafted
 execute at @s[type=item,nbt={Item:{count:6,components:{"minecraft:custom_data":{id:"barked:oak_bark"}}}}] if block ~ ~-0.1 ~ stripped_oak_wood[axis=x] run setblock ~ ~-1 ~ oak_wood[axis=x]
@@ -89,6 +93,10 @@ execute at @s[type=item,nbt={Item:{count:6,components:{"minecraft:custom_data":{
 execute at @s[type=item,nbt={Item:{count:6,components:{"minecraft:custom_data":{id:"barked:cherry_bark"}}}}] if block ~ ~-0.1 ~ stripped_cherry_wood[axis=x] run setblock ~ ~-1 ~ cherry_wood[axis=x]
 execute at @s[type=item,nbt={Item:{count:6,components:{"minecraft:custom_data":{id:"barked:cherry_bark"}}}}] if block ~ ~-0.1 ~ stripped_cherry_wood[axis=y] run setblock ~ ~-1 ~ cherry_wood[axis=y]
 execute at @s[type=item,nbt={Item:{count:6,components:{"minecraft:custom_data":{id:"barked:cherry_bark"}}}}] if block ~ ~-0.1 ~ stripped_cherry_wood[axis=z] run setblock ~ ~-1 ~ cherry_wood[axis=z]
+execute at @s[type=item,nbt={Item:{count:6,components:{"minecraft:custom_data":{id:"barked:pale_oak_bark"}}}}] if block ~ ~-0.1 ~ stripped_pale_oak_wood run tag @s add BarkedCrafted
+execute at @s[type=item,nbt={Item:{count:6,components:{"minecraft:custom_data":{id:"barked:pale_oak_bark"}}}}] if block ~ ~-0.1 ~ stripped_pale_oak_wood[axis=x] run setblock ~ ~-1 ~ pale_oak_wood[axis=x]
+execute at @s[type=item,nbt={Item:{count:6,components:{"minecraft:custom_data":{id:"barked:pale_oak_bark"}}}}] if block ~ ~-0.1 ~ stripped_pale_oak_wood[axis=y] run setblock ~ ~-1 ~ pale_oak_wood[axis=y]
+execute at @s[type=item,nbt={Item:{count:6,components:{"minecraft:custom_data":{id:"barked:pale_oak_bark"}}}}] if block ~ ~-0.1 ~ stripped_pale_oak_wood[axis=z] run setblock ~ ~-1 ~ pale_oak_wood[axis=z]
 
 # Crafting paper
 execute at @s[type=item,nbt={Item:{count:1,components:{"minecraft:custom_data":{id:"barked:oak_bark"}}}}] if block ~ ~-0.1 ~ crafting_table run tag @s add BarkedCraftedPaper
@@ -113,6 +121,8 @@ execute at @s[type=item,nbt={Item:{count:1,components:{"minecraft:custom_data":{
 execute at @s[type=item,nbt={Item:{count:1,components:{"minecraft:custom_data":{id:"barked:warped_stipe"}}}}] if block ~ ~-0.1 ~ crafting_table run summon item ~ ~ ~ {Item:{id:"minecraft:warped_fungus",count:1}}
 execute at @s[type=item,nbt={Item:{count:1,components:{"minecraft:custom_data":{id:"barked:crimson_stipe"}}}}] if block ~ ~-0.1 ~ crafting_table run tag @s add BarkedCraftedPaper
 execute at @s[type=item,nbt={Item:{count:1,components:{"minecraft:custom_data":{id:"barked:crimson_stipe"}}}}] if block ~ ~-0.1 ~ crafting_table run summon item ~ ~ ~ {Item:{id:"minecraft:crimson_fungus",count:1}}
+execute at @s[type=item,nbt={Item:{count:1,components:{"minecraft:custom_data":{id:"barked:pale_oak_bark"}}}}] if block ~ ~-0.1 ~ crafting_table run tag @s add BarkedCraftedPaper
+execute at @s[type=item,nbt={Item:{count:1,components:{"minecraft:custom_data":{id:"barked:pale_oak_bark"}}}}] if block ~ ~-0.1 ~ crafting_table run summon item ~ ~ ~ {Item:{id:"minecraft:paper",count:1}}
 
 # BarkedCrafted
 execute at @e[tag=BarkedCrafted] run particle composter ~ ~0.5 ~ 0 0 0 1 1 normal
